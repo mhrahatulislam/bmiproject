@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/etwe1"
+        android:id="@+id/etWeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -20,7 +20,7 @@
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/etwe2"
+        android:id="@+id/etHightFt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -31,7 +31,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/etwe3"
+        android:id="@+id/etHightIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,7 +43,7 @@
         tools:ignore="TextContrastCheck"/>
 
     <Button
-        android:id="@+id/btm1"
+        android:id="@+id/btCalculat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/calculate_bmi"
